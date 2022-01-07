@@ -1,0 +1,201 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Wcat_GUI/1.0.0": {
+        "dependencies": {
+          "Google.Apis.Drive.v3": "1.43.0.1860",
+          "HIT.Dragablz": "1.0.0",
+          "Ionic.Zlib.Core": "1.0.0",
+          "MaterialDesignThemes": "3.0.1",
+          "Newtonsoft.Json": "12.0.3",
+          "Wcat": "1.0.0.0"
+        },
+        "runtime": {
+          "Wcat_GUI.dll": {}
+        }
+      },
+      "Google.Apis/1.43.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.43.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.43.0.0",
+            "fileVersion": "1.43.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.43.0": {
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Core": "1.43.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.43.0.0",
+            "fileVersion": "1.43.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.43.0.0",
+            "fileVersion": "1.43.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.43.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.43.0.0",
+            "fileVersion": "1.43.0.0"
+          }
+        }
+      },
+      "Google.Apis.Drive.v3/1.43.0.1860": {
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Auth": "1.43.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {
+            "assemblyVersion": "1.43.0.1860",
+            "fileVersion": "1.43.0.1860"
+          }
+        }
+      },
+      "HIT.Dragablz/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Dragablz.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Ionic.Zlib.Core/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Ionic.Zlib.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MaterialDesignColors/1.2.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "1.2.2.920",
+            "fileVersion": "1.2.2.920"
+          }
+        }
+      },
+      "MaterialDesignThemes/3.0.1": {
+        "dependencies": {
+          "MaterialDesignColors": "1.2.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "3.0.1.920",
+            "fileVersion": "3.0.1.920"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Wcat/1.0.0.0": {
+        "runtime": {
+          "Wcat.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wcat_GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis/1.43.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-obrhmOs3G1NdKb6vJukj5nls3FJ8qcheSugvUDA5fHA+4sb9hOvSgtR4rzSiBFTSn30d8C9aJAUFlBtcFi4ltA==",
+      "path": "google.apis/1.43.0",
+      "hashPath": "google.apis.1.43.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.43.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-612MnDeSfltoLztQnlG78ndEJn4kCKP/tnqKMI4l0biZoVJb9l+H1KtU1tTLW1ftiq+mgSoGfAR4jS2JGGOJRA==",
+      "path": "google.apis.auth/1.43.0",
+      "hashPath": "google.apis.auth.1.43.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.43.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y5uzXQP58JFV1VKENO+/IALD1ID8PSff8jFVL9jYUdiXKCI82/1hR8PAx4sQcAenFrFgCNAPSwYJRFJ46OvtBQ==",
+      "path": "google.apis.core/1.43.0",
+      "hashPath": "google.apis.core.1.43.0.nupkg.sha512"
+    },
+    "Google.Apis.Drive.v3/1.43.0.1860": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rd50s+zZuP4GGb8cyw6FfORp52NXKyBQmFIq600EL9Yymoyun3lFslA/O046IERu4RNLo/GHzQX/aBjStVO6sA==",
+      "path": "google.apis.drive.v3/1.43.0.1860",
+      "hashPath": "google.apis.drive.v3.1.43.0.1860.nupkg.sha512"
+    },
+    "HIT.Dragablz/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Vq8jVKLgbSy2bsP7roSN7RjdLB7cy4J0QxDEF0mgF/xiNt0d2/YGj9eJX3n6K4ddf8E3nDfrv3jLxZlutCFuA==",
+      "path": "hit.dragablz/1.0.0",
+      "hashPath": "hit.dragablz.1.0.0.nupkg.sha512"
+    },
+    "Ionic.Zlib.Core/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3GBgjMQA/uPTiqv+wMCpLsyK5dcHCF6EV8+pg4IMKLbgbMGEtIkvErEO4ql5Cv18n94Smf3NAhY/sCed2Tb+Tw==",
+      "path": "ionic.zlib.core/1.0.0",
+      "hashPath": "ionic.zlib.core.1.0.0.nupkg.sha512"
+    },
+    "MaterialDesignColors/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RGy0WREmcn4YcygOlIn4TnvmuVGEM4h7s6Ydw8KQu9igjZPvZm07iXLVgBzNiOtTXVqsGpQ6i7L6aZEXGetWKg==",
+      "path": "materialdesigncolors/1.2.2",
+      "hashPath": "materialdesigncolors.1.2.2.nupkg.sha512"
+    },
+    "MaterialDesignThemes/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EVUgzVjGfJ1Ube9r11iKttOU2cCpYcDAe6kkP5Z1nvytEfBrQFB2DeTEiu51E8Jv+7kN+Jmkx3zwJAr9nYaiHQ==",
+      "path": "materialdesignthemes/3.0.1",
+      "hashPath": "materialdesignthemes.3.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Wcat/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
